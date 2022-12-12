@@ -36,6 +36,7 @@ img {
     display: block;
 }
 
+
 header.container {
     display: flex;
     padding-top: 25px;
@@ -234,6 +235,7 @@ footer.container {
     text-decoration: none;
     margin: 0 auto;
     margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 .char {
@@ -248,7 +250,6 @@ footer.container {
     color: #434455;
     margin: 0 auto;
 }
-
 
 .wawd {
     font-family: 'Roboto';
@@ -328,7 +329,7 @@ footer.container {
     background-color: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
-    height: 380px;
+    height: 436px;
 }
 
 .teametes_div {
@@ -553,8 +554,6 @@ footer.container {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-
-
 .pecu {
     display: flex;
     margin: 0 auto;
@@ -580,4 +579,98 @@ footer.container {
     padding-top: 100px;
     padding-bottom: 100px;
     margin-top: 0;
+}
+
+.char_svg{
+background-color: #F4F4FD;
+width: 64px;
+height: 64px;
+padding: 24px 100px 24px 100px;
+border-radius: 4px;
+}
+
+
+.ot_svg {
+    width: 24px;
+    height: 24px;
+    background-color: #404BBF;
+    fill: #FFFFFF;
+    margin-right: 24px;
+    padding: 8px 8px 8px 8px;
+}
+
+.ot_svg:nth-child(4n + 4) {
+    margin: 0;
+}
+
+.four_svg {
+    display: flex;
+    margin-top: 8px;
+}
+
+.footer_svg {
+    width: 24px;
+    height: 24px;
+    background-color:#434455 ;
+    fill:#FFFFFF ;
+    margin-right: 16px;
+    padding: 8px 8px 8px 8px;
+    border-radius: 20px;
+}
+
+.footer_svg:last-child {
+    margin: 0;
+}
+
+.footer_media {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.container_footer {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.container_cust {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 120px;
+}
+
+.cust_header {
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    margin-bottom: 72px;
+    justify-content: center;
+}
+
+.cust_ul {
+    display: flex;
+    width: 168px;
+    height: 88px;
+}
+
+
+
+.icons {
+    padding: 8px 8px 8px 8px;
 }
