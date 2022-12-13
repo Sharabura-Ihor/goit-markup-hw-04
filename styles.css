@@ -172,6 +172,7 @@ header.container {
 
 .service_order {
     background-color: #2E2F42;
+    background-image: url();
     padding: 192px;
     padding-left: 15px;
     padding-right: 15px;
@@ -586,7 +587,6 @@ background-color: #F4F4FD;
 width: 64px;
 height: 64px;
 padding: 24px 100px 24px 100px;
-border-radius: 4px;
 }
 
 
@@ -595,8 +595,7 @@ border-radius: 4px;
     height: 24px;
     background-color: #404BBF;
     fill: #FFFFFF;
-    margin-right: 24px;
-    padding: 8px 8px 8px 8px;
+    padding: 8px;
 }
 
 .ot_svg:nth-child(4n + 4) {
@@ -606,20 +605,36 @@ border-radius: 4px;
 .four_svg {
     display: flex;
     margin-top: 8px;
+    justify-content: center;
 }
 
 .footer_svg {
-    width: 24px;
-    height: 24px;
+    display: flex;
     background-color:#434455 ;
     fill:#FFFFFF ;
-    margin-right: 16px;
-    padding: 8px 8px 8px 8px;
-    border-radius: 20px;
+    padding: 8px;
 }
 
 .footer_svg:last-child {
     margin: 0;
+}
+
+.footer_div_svg {
+    display: flex;
+    margin-right: 16px ;
+    width: 40px;
+    height: 40px;
+}
+
+.div_svg {
+    display: flex;
+    margin-right: 16px;
+    width: 40px;
+    height: 40px;
+}
+
+.div_svg:last-child {
+    margin-right: 0;
 }
 
 .footer_media {
@@ -661,16 +676,39 @@ border-radius: 4px;
     line-height: 1.16;
     margin-bottom: 72px;
     justify-content: center;
+    padding-top: 120px;
 }
 
 .cust_ul {
     display: flex;
-    width: 168px;
-    height: 88px;
+    justify-content: center;
 }
 
-
-
 .icons {
-    padding: 8px 8px 8px 8px;
+    width: 24px;
+    height: px;
+}
+
+.cust_svg {
+    display: flex;
+    margin-right: 24px;
+    
+}
+
+.cust_svg:last-child {
+    margin-right: 0;
+}
+
+.cust_pic {
+    display: flex;
+    padding: 16px 32px 16px 32px ;
+    width: 104px;
+    height: 56px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cust_pic:hover {
+    border: 1px solid #404BBF
 }
