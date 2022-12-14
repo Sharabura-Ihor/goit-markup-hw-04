@@ -647,10 +647,6 @@ padding: 24px 100px 24px 100px;
     justify-content: center;
 }
 
-.footer_li {
-    margin: 0;
-}
-
 .footer_a_svg {
     display: flex;
     background-color:#434455 ;
