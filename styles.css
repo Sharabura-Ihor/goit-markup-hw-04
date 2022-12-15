@@ -171,17 +171,16 @@ header.container {
 }
 
 .service_order {
-    background-image: url("people-office.svg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), url("people-office.svg");
     background-color: #2E2F42;
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: fill;
     padding: 192px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    max-width: 1440px;
 }
 
 .solut {
@@ -663,9 +662,8 @@ padding: 24px 100px 24px 100px;
 }
 
 .footer_cont {
-    display: block;
-    position: absolute;
     margin: 0;
+    margin-left: 120px;
 }
 
 .footer_media {
@@ -684,7 +682,9 @@ padding: 24px 100px 24px 100px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    display: block;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 
@@ -732,4 +732,16 @@ padding: 24px 100px 24px 100px;
 
 .cust_a_pic:hover {
     border: 1px solid #4D5AE5;
+}
+
+.cust_a_pic:focus {
+    border: 1px solid #4D5AE5;
+}
+
+.cust_svg_hover:hover {
+    fill:#404BBF;
+}
+
+.cust_svg_hover:focus {
+    fill: #404BBF;
 }
