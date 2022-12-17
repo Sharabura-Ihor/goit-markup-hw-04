@@ -172,7 +172,7 @@ header.container {
 
 .service_order {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)), url("people-office.svg");
+    rgba(46, 47, 66, 0.7)), url("./images/people-office 1.jpg");
     background-color: #2E2F42;
     padding: 192px;
     padding-left: 15px;
@@ -284,6 +284,10 @@ footer.container {
 
 .wawd_img {
     margin-right: 24px;
+}
+
+.wawd_img:last-child {
+    margin-right: 0;
 }
 
 .ot {
@@ -720,6 +724,10 @@ padding: 24px 100px 24px 100px;
     margin-right: 24px;
 }
 
+.cust_svg:last-child {
+    margin-right: 0;
+}
+
 .cust_a_pic {
     display: flex;
     padding: 16px 32px 16px 32px ;
@@ -728,20 +736,16 @@ padding: 24px 100px 24px 100px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
     cursor: pointer;
+    fill: #8E8F99;
 }
 
 .cust_a_pic:hover {
     border: 1px solid #4D5AE5;
+    fill: #4D5AE5;
 }
 
 .cust_a_pic:focus {
     border: 1px solid #4D5AE5;
+    fill: #4D5AE5;
 }
 
-.cust_svg_hover:hover {
-    fill:#404BBF;
-}
-
-.cust_svg_hover:focus {
-    fill: #404BBF;
-}
